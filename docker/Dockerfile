@@ -40,7 +40,7 @@ COPY --from=temp /rootfs/ /
 
 ENV LANG=C.UTF-8 LANG=zh_CN.UTF-8 LANGUAGE=zh_CN.UTF-8 LC_ALL=C \
   XL_DEBUG=false \
-  XL_DASHBOARD_PORT=2345 \
+  XL_DASHBOARD_PORT=23456 \
   XL_DASHBOARD_USERNAME= \
   XL_DIR_DOWNLOAD=/xunlei/downloads \
   XL_DIR_DATA=/xunlei/data \
